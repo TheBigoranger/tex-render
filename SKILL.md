@@ -4,13 +4,6 @@ description: Renders LaTeX math to PNG, JPEG, WebP, or AVIF images using MathJax
 metadata:
   openclaw:
     emoji: 📐
-    install:
-      - kind: node
-        package: mathjax
-      - kind: node
-        package: "@svg-fns/svg2img"
-      - kind: node
-        package: sharp
 ---
 
 # TeX Render 📐
@@ -33,7 +26,7 @@ Use the **directory containing this SKILL.md** as the skill path. The script is 
 
 ## Install
 
-One-time setup. `cd` into the skill folder (the directory containing this SKILL.md), then run:
+One-time setup. After `clawhub install tex-render`, run `npm install` in the skill folder:
 
 ```bash
 cd <skill_folder>
